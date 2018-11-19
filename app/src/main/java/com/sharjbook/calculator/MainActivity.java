@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 CalculatorDialog calculatorDialog = new CalculatorDialog()
                         .setAlertRadius(30)
                         .setCalc(editText.getText().toString())
+                        .setTextButton("ثبت")
                         .setTypeFace(Typeface.createFromAsset(getAssets(), "bsans.ttf"))
                         .setListener(new Listener() {
                             @Override

@@ -25,6 +25,7 @@ public class CalculatorDialog extends DialogFragment {
     private Listener listener;
     private Typeface typeFace;
     private String number = "";
+    private String textButton = "ثبت";
 
     TextView button0, button1, button2, button3, button4, button5, button6,
             button7, button8, button9, buttonAdd, buttonSub, buttonDivision,
@@ -103,6 +104,8 @@ public class CalculatorDialog extends DialogFragment {
         if (!number.equals("")){
             crunchifyEditText.setText(""+number);
         }
+
+        Submit.setText(textButton);
 
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -362,6 +365,11 @@ public class CalculatorDialog extends DialogFragment {
 
     public CalculatorDialog setCalc(String number) {
         this.number = number;
+        return this;
+    }
+
+    public CalculatorDialog setTextButton(String textButton) {
+        this.textButton = textButton;
         return this;
     }
 

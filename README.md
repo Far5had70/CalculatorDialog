@@ -49,6 +49,7 @@ You can try it out here [Sample Application](https://github.com/Far5had70/Calcul
                 CalculatorDialog calculatorDialog = new CalculatorDialog()
                         .setAlertRadius(30)
                         .setCalc("0")
+                        .setTextButton("ثبت")
                         .setTypeFace(Typeface.createFromAsset(getAssets(), "bsans.ttf"))
                         .setListener(new Listener() {
                             @Override
