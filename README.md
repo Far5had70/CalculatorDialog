@@ -13,7 +13,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ```gradle
 	dependencies {
-	        implementation 'com.github.Far5had70:CalculatorAlert:1.0.0'
+	        implementation 'com.github.Far5had70:CalculatorDialog:1.0.0'
 	}
 ```
 
