@@ -1,4 +1,4 @@
-"# CalculatorAlert"
+"# CalculatorDialog"
 
 <img src="https://raw.githubusercontent.com/Far5had70/CalculatorDialog/master/record.gif" height="480" width="270">
 
@@ -66,4 +66,4 @@ You can try it out here [Sample Application](https://github.com/Far5had70/Calcul
 Farshad Asgharzadeh
 
 For contact, shoot me an email at ferik800@gmail.com
-"# CalculatorDialog" 
+
