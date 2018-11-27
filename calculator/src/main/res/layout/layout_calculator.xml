@@ -10,7 +10,8 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/calc_root2">
 
         <EditText
             android:id="@+id/edt1"
@@ -53,7 +54,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:background="?selectableItemBackgroundBorderless"
             android:padding="@dimen/padding_text"
             android:src="@drawable/ic_back"
             app:layout_constraintBottom_toBottomOf="@+id/buttonC"
