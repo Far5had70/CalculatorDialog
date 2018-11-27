@@ -50,6 +50,8 @@ You can try it out here [Sample Application](https://github.com/Far5had70/Calcul
                         .setAlertRadius(30)
                         .setCalc("0")
                         .setTextButton("ثبت")
+                        .setBackgroundColor(getResources().getColor(R.color.colorPrimary))
+                        .setButtonsTextColor(getResources().getColor(R.color.calc_white))
                         .setTypeFace(Typeface.createFromAsset(getAssets(), "bsans.ttf"))
                         .setListener(new Listener() {
                             @Override
